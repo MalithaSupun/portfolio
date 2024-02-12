@@ -366,6 +366,10 @@ float: right;
 
 /*get in touch section*/
 
+.get-in-touch-section {
+    height: 470px;
+}
+
 .btn-get-in-touch {
     font-size: medium;
     margin-top: 55px;
@@ -377,6 +381,95 @@ float: right;
 }
 
 .get-in-touch-btn-title {
-    width: 110px;
+    width: 140px;
+    margin: 0 auto;
+}
+
+.get-in-touch-p {
+    margin-top: 15px;
+    color: #fff;
+}
+
+.get-in-touch-p-p {
+    width: 440px;
+    margin: 0 auto;
+}
+
+.get-in-touch-p-email {
+    margin-top: 35px;
+    color: #fff;
+}
+
+.get-in-touch-p-mobile {
+    margin-top: 35px;
+    color: #fff;
+}
+
+.get-in-touch-email {
+    width: 535px;
+    margin: 0 auto;
+    font-size: xx-large;
+}
+
+.get-in-touch-mobile {
+    width: 360px;
+    margin: 0 auto;
+    font-size: xx-large;
+}
+
+.emai-img {
+    width: 30px;
+    height: auto;
+}
+
+.email-copy-img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+.call-copy-img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+.call-img {
+    width: 30px;
+    height: auto;
+}
+
+.g-i-t-para-section {
+    margin-top: 45px;
+    color: #fff;
+}
+
+.g-i-t-para {
+    width: 310px;
+    margin: 0 auto;
+}
+
+.social-icons-get-in-to {
+    width: 140px;
+    margin: 10px auto;
+}
+
+.g-i-t-social-icons {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/*end of get in touch*/
+
+.footer {
+    background-color: #111111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
     margin: 0 auto;
 }
