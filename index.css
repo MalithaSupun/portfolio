@@ -293,7 +293,7 @@ float: right;
 
 .project-section {
     background-color: #111111;
-    height: 800px;
+    height: 780px;
 }
 
 .btn-project {
@@ -359,5 +359,24 @@ float: right;
     display: inline;
     padding: 4px;
     border-radius: 20px;
-    color: #fff;
+    color: #ffffff9f;
+}
+
+/*end of project section*/
+
+/*get in touch section*/
+
+.btn-get-in-touch {
+    font-size: medium;
+    margin-top: 55px;
+    background-color: rgba(255, 255, 255, 0.199);
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+}
+
+.get-in-touch-btn-title {
+    width: 110px;
+    margin: 0 auto;
 }
