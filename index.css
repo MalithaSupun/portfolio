@@ -275,6 +275,7 @@ float: right;
 }
 
 .skill-item {
+    cursor: pointer;
     text-align: center;
     margin: 20px; /* Adjust spacing between items */
 }
@@ -554,4 +555,30 @@ float: right;
     }
 
     /* Add more adjustments as needed for other sections */
+}
+
+
+.snow-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.snowflake {
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    animation: snowfall linear infinite;
+}
+
+@keyframes snowfall {
+    0% {
+        transform: translateY(-100vh);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
 }
