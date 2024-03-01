@@ -557,7 +557,7 @@ float: right;
     /* Add more adjustments as needed for other sections */
 }
 
-
+/*--------------snow--------------*/
 .snow-container {
     position: fixed;
     top: 0;
@@ -582,3 +582,19 @@ float: right;
         transform: translateY(100vh);
     }
 }
+
+/*--------------snow--------------*/
+
+/* CSS for shaking animation */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-3px); }
+    100% { transform: translateX(0); }
+}
+
+.shaking {
+    animation: shake 0.5s ease;
+}
+/* CSS for shaking animation */
